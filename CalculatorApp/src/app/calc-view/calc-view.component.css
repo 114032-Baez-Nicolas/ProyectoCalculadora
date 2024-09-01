@@ -1,0 +1,79 @@
+#calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C3E50;
+}
+
+#form-calcu {
+    background-color: #34495E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    color: #ECF0F1;
+}
+
+#divborder {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ECF0F1;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #ECF0F1;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+input[readonly] {
+    background-color: #BDC3C7;
+}
+
+.app-calc-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    flex: 1;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #BDC3C7;
+}
+
+button:last-child {
+    background-color: #E74C3C;
+    color: #ECF0F1;
+}
+
+button:last-child:hover {
+    background-color: #C0392B;
+}
